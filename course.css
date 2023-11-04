@@ -1,0 +1,19 @@
+.dropdown{
+    align:center;
+    width: 500px;
+    background-color: bisque;
+    color:black;
+    position: relative;
+}
+
+.content{
+    display: none;
+    align-self: auto;
+}
+.dropdown:hover .content{
+    display: block;
+}
+
+h1{
+    color:navy;
+}
